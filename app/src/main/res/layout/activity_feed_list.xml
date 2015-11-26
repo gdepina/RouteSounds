@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="800dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#DE415C">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:src="@drawable/logo"
+            android:onClick="returnHome"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESCUBRISTE"
+            android:layout_marginLeft="170dp"
+            android:textColor="#fff"
+            android:layout_gravity="center_vertical"
+            android:textSize="32dp"/>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:divider="#DE415C"
+        android:dividerHeight="2dp"
+        android:layout_below="@+id/header">
+    </ListView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VER EN MAPA"
+        android:background="#DE415C"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:onClick="sendMaps"
+        android:textSize="25sp"
+        />
+
+</RelativeLayout>

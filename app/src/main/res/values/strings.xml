@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RouteSounds</string>
+    <string name="interest">USINA DEL ARTE</string>
+    <string name="address">¿Dónde nació la banda?</string>
+    <string name="name">Nombre...</string>
+    <string name="website">Sitió web</string>
+    <string name="button_send">DESCUBRE</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Route Sounds</string>
+    <string name="listener">MI RECORRIDO</string>
+    <string name="band">CARGAR BANDA</string>
+    <string name="title_activity_thanks">Route Sounds</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="discover">Descubre</string>
+    <string name="title_activity_feed">Descubre</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
